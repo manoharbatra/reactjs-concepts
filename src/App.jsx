@@ -1,9 +1,11 @@
 import './App.css'
+import Filter1 from './components/Filter1'
 
 function App() {
 
   return (
-    <p>Subscribe to Manohar Batra YouTube Channel</p>  )
+    <Filter1 />
+      )
 }
 
 export default App
