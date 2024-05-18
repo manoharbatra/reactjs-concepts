@@ -7,3 +7,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+/*
+// catch root element
+const rootDiv = document.getElementById('root')
+
+// create virtual DOM
+const reactRoot = ReactDOM.createRoot(rootDiv)
+
+reactRoot.render(<App />)
+*/
