@@ -1,10 +1,13 @@
-import './App.css'
+import UserAuth from "./UserAuth"
+// import UserSpinner from "./UserSpinner"
 
-function App() {
-
+const App = () => {
   return (
-    <a href='https://www.youtube.com/@ManoharBatra/videos'>Subscribe to Manohar Batra YouTube Channel</a>
-    )
+    <div>
+      {/* <UserSpinner /> */}
+      <UserAuth />
+    </div>
+  )
 }
 
 export default App
