@@ -1,12 +1,8 @@
-import UserAuth from "./UserAuth"
-// import UserSpinner from "./UserSpinner"
+import MyComponent from "./MyComponent"
 
 const App = () => {
   return (
-    <div>
-      {/* <UserSpinner /> */}
-      <UserAuth />
-    </div>
+    <div><MyComponent /></div>
   )
 }
 
