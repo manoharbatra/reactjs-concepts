@@ -1,9 +1,10 @@
 import './App.css'
+import ThrottledComponent from './ThrottledComponent'
 
 function App() {
 
   return (
-    <a href='https://www.youtube.com/@ManoharBatra/videos'>Subscribe to Manohar Batra YouTube Channel</a>
+    <ThrottledComponent />
     )
 }
 
