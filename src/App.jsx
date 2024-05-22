@@ -1,9 +1,13 @@
 import './App.css'
+// import MyComponent from './hooks/useMemo/MyComponent'
+import ParentComponent from './hooks/useCallback/MemoAndcallback'
 
 function App() {
 
   return (
-    <a href='https://www.youtube.com/@ManoharBatra/videos'>Subscribe to Manohar Batra YouTube Channel</a>
+    <>
+    <ParentComponent />
+    </>
     )
 }
 
