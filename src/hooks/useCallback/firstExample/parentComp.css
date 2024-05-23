@@ -1,0 +1,38 @@
+/* App.css */
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+  }
+  
+  .container h2 {
+    margin: 0 0 10px;
+  }
+  
+  .container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .container button {
+    margin-top: 1rem;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }

@@ -1,13 +1,10 @@
 import './App.css'
-// import MyComponent from './hooks/useMemo/MyComponent'
-import ParentComponent from './hooks/useCallback/MemoAndcallback'
+import ParentComp from './hooks/useCallback/firstExample/ParentComp'
 
 function App() {
 
   return (
-    <>
-    <ParentComponent />
-    </>
+    <ParentComp />
     )
 }
 
