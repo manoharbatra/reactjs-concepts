@@ -1,11 +1,8 @@
-import './App.css'
-import ParentComp from './hooks/useCallback/firstExample/ParentComp'
+import "./App.css";
+import Test1 from "./hooks/useId/Test1";
 
 function App() {
-
-  return (
-    <ParentComp />
-    )
+  return <Test1 />;
 }
 
-export default App
+export default App;
